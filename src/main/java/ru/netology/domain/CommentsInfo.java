@@ -1,8 +1,8 @@
 package ru.netology.domain;
 
 public class CommentsInfo {
-    private String profileImage;
-    private String profileUrl;
+    private String profileImageUrl;
+    private String profileId;
     private String comment;
     private String add;
     private String photo;
