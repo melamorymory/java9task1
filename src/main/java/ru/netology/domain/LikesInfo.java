@@ -1,7 +1,8 @@
 package ru.netology.domain;
 
 public class LikesInfo {
-    private String text;
-    private String profileImage;
-    private String profileId;
+    private int like;
+    private int userLikes;
+    private int canLike;
+    private int canPublish;
 }

@@ -1,11 +1,14 @@
 package ru.netology.domain;
 
 public class CommentsInfo {
-    private String profileImageUrl;
-    private String profileId;
+    private int count;
+    private int canPost;
+    private int groupCanPost;
+    private boolean canClose;
+    private boolean canOpen;
     private String comment;
-    private String add;
-    private String photo;
+    private String addFile;
+    private String addPhoto;
     private String smiles;
     private String sendButton;
 }
